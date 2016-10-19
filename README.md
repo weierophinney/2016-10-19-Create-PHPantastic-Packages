@@ -5,12 +5,8 @@ reveal.js.
 
 ## Running the slides
 
-You can run the slide deck in a couple ways:
-
-- Via npm or yarn
-- Via php
-
-### npm/yarn
+The slide deck uses the markdown features of reveal.js, so it requires that you
+run the deck using npm.
 
 First, install dependencies.
 
@@ -27,14 +23,6 @@ $ npm start
 ```
 
 This will fire up the server, and open the slides in your preferred browser.
-
-### php
-
-```bash
-$ php -S 0.0.0.0:8000 -t .
-```
-
-Once you've dont that, open the slides at http://localhost:8000
 
 ## Notes
 
